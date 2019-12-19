@@ -1,0 +1,32 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit1.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TMainFrm *MainFrm;
+//---------------------------------------------------------------------------
+__fastcall TMainFrm::TMainFrm(TComponent* Owner)
+	: TForm(Owner)
+{
+
+}
+//---------------------------------------------------------------------------
+void __fastcall TMainFrm::FormCreate(TObject *Sender)
+{
+	ImgProc=new cImageData(0,0,3,pf24bit);
+	ImgProc->CopyFromBitmap(imghsl->Picture->Bitmap);
+}
+//---------------------------------------------------------------------------
+void __fastcall TMainFrm::imghslMouseMove(TObject *Sender, TShiftState Shift, int X,
+          int Y)
+{
+	ImgProc->GetRGB(X,Y,&red,&green,&blue);
+	SB->Panels->Items[0]->Text="Red :"+IntToStr(red);
+	SB->Panels->Items[1]->Text="Green :"+IntToStr(green);
+	SB->Panels->Items[2]->Text="Blue :"+IntToStr(blue);
+}
+//---------------------------------------------------------------------------

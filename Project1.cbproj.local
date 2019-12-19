@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899/12/30 00:00:00.000.562,=C:\Users\ROG\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.194,=C:\Users\ROG\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2019/12/02 14:55:36.000.511,=C:\Users\ROG\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2019/12/02 14:55:36.000.380,=C:\Users\ROG\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2019/12/02 14:58:03.000.552,C:\Users\ROG\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\C\ImgProcessing\Unit1.dfm</Transaction>
+    <Transaction>2019/12/02 14:58:03.000.552,C:\Users\ROG\Documents\Embarcadero\Studio\Projects\Unit1.cpp=D:\C\ImgProcessing\Unit1.cpp</Transaction>
+    <Transaction>2019/12/02 14:58:03.000.552,C:\Users\ROG\Documents\Embarcadero\Studio\Projects\Unit1.h=D:\C\ImgProcessing\Unit1.h</Transaction>
+    <Transaction>2019/12/02 14:58:05.000.954,C:\Users\ROG\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=D:\C\ImgProcessing\Project1PCH1.h</Transaction>
+    <Transaction>2019/12/02 14:58:08.000.751,C:\Users\ROG\Documents\Embarcadero\Studio\Projects\Project1.cbproj=D:\C\ImgProcessing\Project1.cbproj</Transaction>
+    <Transaction>2019/12/02 15:00:29.000.773,=D:\C\ImgProcessing\ImgData.lib</Transaction>
+    <Transaction>2019/12/02 15:28:34.000.026,D:\C\ImgProcessing\ImgData.lib=</Transaction>
+    <Transaction>2019/12/02 15:28:39.000.765,=D:\C\ImgProcessing\ImageDataLib.lib</Transaction>
+  </Transactions>
+</BorlandProject>
